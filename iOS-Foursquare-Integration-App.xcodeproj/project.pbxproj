@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75CD3D91CA08C2F00C36788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3D81CA08C2F00C36788 /* AppDelegate.swift */; };
+		C75CD3DB1CA08C2F00C36788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3DA1CA08C2F00C36788 /* ViewController.swift */; };
+		C75CD3DE1CA08C2F00C36788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3DC1CA08C2F00C36788 /* Main.storyboard */; };
+		C75CD3E01CA08C2F00C36788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3DF1CA08C2F00C36788 /* Assets.xcassets */; };
+		C75CD3E31CA08C2F00C36788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3E11CA08C2F00C36788 /* LaunchScreen.storyboard */; };
+		C75CD3EE1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3ED1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75CD3EA1CA08C2F00C36788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75CD3CD1CA08C2F00C36788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75CD3D41CA08C2F00C36788;
+			remoteInfo = "iOS-Foursquare-Integration-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C75CD3D51CA08C2F00C36788 /* iOS-Foursquare-Integration-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Foursquare-Integration-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75CD3D81CA08C2F00C36788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C75CD3DA1CA08C2F00C36788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C75CD3DD1CA08C2F00C36788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C75CD3DF1CA08C2F00C36788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75CD3E21CA08C2F00C36788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C75CD3E41CA08C2F00C36788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75CD3E91CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Foursquare-Integration-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75CD3ED1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Foursquare_Integration_AppTests.swift; sourceTree = "<group>"; };
+		C75CD3EF1CA08C2F00C36788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75CD3D21CA08C2F00C36788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75CD3E61CA08C2F00C36788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75CD3CC1CA08C2F00C36788 = {
+			isa = PBXGroup;
+			children = (
+				C75CD3D71CA08C2F00C36788 /* iOS-Foursquare-Integration-App */,
+				C75CD3EC1CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests */,
+				C75CD3D61CA08C2F00C36788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75CD3D61CA08C2F00C36788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75CD3D51CA08C2F00C36788 /* iOS-Foursquare-Integration-App.app */,
+				C75CD3E91CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75CD3D71CA08C2F00C36788 /* iOS-Foursquare-Integration-App */ = {
+			isa = PBXGroup;
+			children = (
+				C75CD3D81CA08C2F00C36788 /* AppDelegate.swift */,
+				C75CD3DA1CA08C2F00C36788 /* ViewController.swift */,
+				C75CD3DC1CA08C2F00C36788 /* Main.storyboard */,
+				C75CD3DF1CA08C2F00C36788 /* Assets.xcassets */,
+				C75CD3E11CA08C2F00C36788 /* LaunchScreen.storyboard */,
+				C75CD3E41CA08C2F00C36788 /* Info.plist */,
+			);
+			path = "iOS-Foursquare-Integration-App";
+			sourceTree = "<group>";
+		};
+		C75CD3EC1CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75CD3ED1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift */,
+				C75CD3EF1CA08C2F00C36788 /* Info.plist */,
+			);
+			path = "iOS-Foursquare-Integration-AppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75CD3D41CA08C2F00C36788 /* iOS-Foursquare-Integration-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75CD3F21CA08C2F00C36788 /* Build configuration list for PBXNativeTarget "iOS-Foursquare-Integration-App" */;
+			buildPhases = (
+				C75CD3D11CA08C2F00C36788 /* Sources */,
+				C75CD3D21CA08C2F00C36788 /* Frameworks */,
+				C75CD3D31CA08C2F00C36788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Foursquare-Integration-App";
+			productName = "iOS-Foursquare-Integration-App";
+			productReference = C75CD3D51CA08C2F00C36788 /* iOS-Foursquare-Integration-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C75CD3E81CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75CD3F51CA08C2F00C36788 /* Build configuration list for PBXNativeTarget "iOS-Foursquare-Integration-AppTests" */;
+			buildPhases = (
+				C75CD3E51CA08C2F00C36788 /* Sources */,
+				C75CD3E61CA08C2F00C36788 /* Frameworks */,
+				C75CD3E71CA08C2F00C36788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75CD3EB1CA08C2F00C36788 /* PBXTargetDependency */,
+			);
+			name = "iOS-Foursquare-Integration-AppTests";
+			productName = "iOS-Foursquare-Integration-AppTests";
+			productReference = C75CD3E91CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75CD3CD1CA08C2F00C36788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vasileios Loumanis";
+				TargetAttributes = {
+					C75CD3D41CA08C2F00C36788 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C75CD3E81CA08C2F00C36788 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C75CD3D41CA08C2F00C36788;
+					};
+				};
+			};
+			buildConfigurationList = C75CD3D01CA08C2F00C36788 /* Build configuration list for PBXProject "iOS-Foursquare-Integration-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75CD3CC1CA08C2F00C36788;
+			productRefGroup = C75CD3D61CA08C2F00C36788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75CD3D41CA08C2F00C36788 /* iOS-Foursquare-Integration-App */,
+				C75CD3E81CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75CD3D31CA08C2F00C36788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75CD3E31CA08C2F00C36788 /* LaunchScreen.storyboard in Resources */,
+				C75CD3E01CA08C2F00C36788 /* Assets.xcassets in Resources */,
+				C75CD3DE1CA08C2F00C36788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75CD3E71CA08C2F00C36788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75CD3D11CA08C2F00C36788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75CD3DB1CA08C2F00C36788 /* ViewController.swift in Sources */,
+				C75CD3D91CA08C2F00C36788 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75CD3E51CA08C2F00C36788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75CD3EE1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75CD3EB1CA08C2F00C36788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75CD3D41CA08C2F00C36788 /* iOS-Foursquare-Integration-App */;
+			targetProxy = C75CD3EA1CA08C2F00C36788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C75CD3DC1CA08C2F00C36788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75CD3DD1CA08C2F00C36788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C75CD3E11CA08C2F00C36788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75CD3E21CA08C2F00C36788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C75CD3F01CA08C2F00C36788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C75CD3F11CA08C2F00C36788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C75CD3F31CA08C2F00C36788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Foursquare-Integration-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iOS-Foursquare-Integration-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C75CD3F41CA08C2F00C36788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Foursquare-Integration-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iOS-Foursquare-Integration-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C75CD3F61CA08C2F00C36788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-Foursquare-Integration-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iOS-Foursquare-Integration-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Foursquare-Integration-App.app/iOS-Foursquare-Integration-App";
+			};
+			name = Debug;
+		};
+		C75CD3F71CA08C2F00C36788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-Foursquare-Integration-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iOS-Foursquare-Integration-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Foursquare-Integration-App.app/iOS-Foursquare-Integration-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75CD3D01CA08C2F00C36788 /* Build configuration list for PBXProject "iOS-Foursquare-Integration-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75CD3F01CA08C2F00C36788 /* Debug */,
+				C75CD3F11CA08C2F00C36788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C75CD3F21CA08C2F00C36788 /* Build configuration list for PBXNativeTarget "iOS-Foursquare-Integration-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75CD3F31CA08C2F00C36788 /* Debug */,
+				C75CD3F41CA08C2F00C36788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C75CD3F51CA08C2F00C36788 /* Build configuration list for PBXNativeTarget "iOS-Foursquare-Integration-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75CD3F61CA08C2F00C36788 /* Debug */,
+				C75CD3F71CA08C2F00C36788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75CD3CD1CA08C2F00C36788 /* Project object */;
+}
