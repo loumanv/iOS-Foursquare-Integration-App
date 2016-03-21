@@ -11,9 +11,14 @@ import QuadratTouch
 
 typealias JSONParameters = [String: AnyObject]
 
+protocol FoursquareDelegate {
+    func searchFinished()
+}
+
 class Foursquare: NSObject {
 
     var venues: [JSONParameters]!
+    var delegate: FoursquareDelegate?
     
     func search(location: NSString) {
         let session = Session.sharedSession()
@@ -24,6 +29,9 @@ class Foursquare: NSObject {
             (result) -> Void in
             if let response = result.response {
                 self.venues = response["venues"] as! [JSONParameters]?
+                if let delegate = self.delegate {
+                    delegate.searchFinished()
+                }
             }
         }
         searchTask.start()
