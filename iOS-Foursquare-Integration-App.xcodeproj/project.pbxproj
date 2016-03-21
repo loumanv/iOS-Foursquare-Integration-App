@@ -13,7 +13,7 @@
 		C75CD3DE1CA08C2F00C36788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3DC1CA08C2F00C36788 /* Main.storyboard */; };
 		C75CD3E01CA08C2F00C36788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3DF1CA08C2F00C36788 /* Assets.xcassets */; };
 		C75CD3E31CA08C2F00C36788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3E11CA08C2F00C36788 /* LaunchScreen.storyboard */; };
-		C75CD3EE1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3ED1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift */; };
+		C75CD3FA1CA0928B00C36788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3D81CA08C2F00C36788 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		C75CD3E21CA08C2F00C36788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C75CD3E41CA08C2F00C36788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C75CD3E91CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Foursquare-Integration-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75CD3ED1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Foursquare_Integration_AppTests.swift; sourceTree = "<group>"; };
 		C75CD3EF1CA08C2F00C36788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +104,6 @@
 		C75CD3EC1CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C75CD3ED1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift */,
 				C75CD3EF1CA08C2F00C36788 /* Info.plist */,
 			);
 			path = "iOS-Foursquare-Integration-AppTests";
@@ -167,6 +165,7 @@
 		C75CD3CD1CA08C2F00C36788 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Vasileios Loumanis";
 				TargetAttributes = {
@@ -280,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75CD3EE1CA08C2F00C36788 /* iOS_Foursquare_Integration_AppTests.swift in Sources */,
+				C75CD3FA1CA0928B00C36788 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +424,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "iOS-Foursquare-Integration-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iOS-Foursquare-Integration-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Foursquare-Integration-App.app/iOS-Foursquare-Integration-App";
 			};
 			name = Debug;
@@ -437,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "iOS-Foursquare-Integration-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iOS-Foursquare-Integration-AppTests";
