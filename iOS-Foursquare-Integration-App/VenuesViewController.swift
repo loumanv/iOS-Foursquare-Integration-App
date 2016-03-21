@@ -29,6 +29,11 @@ class VenuesViewController: UIViewController, FoursquareDelegate, UITableViewDat
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         let venue = foursquare.venues[indexPath.row]
+        if let venueLocation = venue["location"] as? JSONParameters {
+            if let address = venueLocation["address"] as? String {
+                cell.detailTextLabel?.text = address
+            }
+        }
         cell.textLabel?.text = venue["name"] as? String
         return cell
     }
