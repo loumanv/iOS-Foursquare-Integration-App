@@ -14,6 +14,7 @@
 		C75CD3E01CA08C2F00C36788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3DF1CA08C2F00C36788 /* Assets.xcassets */; };
 		C75CD3E31CA08C2F00C36788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75CD3E11CA08C2F00C36788 /* LaunchScreen.storyboard */; };
 		C75CD3FA1CA0928B00C36788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3D81CA08C2F00C36788 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		C75CD3FD1CA0969F00C36788 /* Foursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3FC1CA0969F00C36788 /* Foursquare.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		C75CD3E41CA08C2F00C36788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C75CD3E91CA08C2F00C36788 /* iOS-Foursquare-Integration-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Foursquare-Integration-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75CD3EF1CA08C2F00C36788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75CD3FC1CA0969F00C36788 /* Foursquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foursquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				C75CD3D81CA08C2F00C36788 /* AppDelegate.swift */,
 				C75CD3DA1CA08C2F00C36788 /* ViewController.swift */,
+				C75CD3FC1CA0969F00C36788 /* Foursquare.swift */,
 				C75CD3DC1CA08C2F00C36788 /* Main.storyboard */,
 				C75CD3DF1CA08C2F00C36788 /* Assets.xcassets */,
 				C75CD3E11CA08C2F00C36788 /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C75CD3DB1CA08C2F00C36788 /* ViewController.swift in Sources */,
+				C75CD3FD1CA0969F00C36788 /* Foursquare.swift in Sources */,
 				C75CD3D91CA08C2F00C36788 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
