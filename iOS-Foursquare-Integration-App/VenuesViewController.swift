@@ -13,6 +13,7 @@ class VenuesViewController: UIViewController, UITableViewDataSource, UITableView
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var locationSearchBar: UISearchBar!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     var foursquare: Foursquare = Foursquare()
     
     override func viewDidLoad() {
@@ -46,16 +47,20 @@ class VenuesViewController: UIViewController, UITableViewDataSource, UITableView
     
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         if let location = searchBar.text {
+            activityIndicator.startAnimating()
             foursquare.search(location) { () in
                 self.tableView.reloadData()
+                self.activityIndicator.stopAnimating()
             }
         }
     }
     
     func searchBarTextDidEndEditing(searchBar: UISearchBar) {
         if let location = searchBar.text {
+            activityIndicator.startAnimating()
             foursquare.search(location) { () in
                 self.tableView.reloadData()
+                self.activityIndicator.stopAnimating()
             }
         }
     }

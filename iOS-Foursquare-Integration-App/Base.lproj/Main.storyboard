@@ -55,6 +55,10 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="plS-Nx-mBk"/>
                                 </connections>
                             </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Ou9-Z1-L5b">
+                                <rect key="frame" x="282" y="282" width="37" height="37"/>
+                                <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -62,12 +66,15 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s5r-nZ-POZ" secondAttribute="bottom" id="9id-QO-vNw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="s5r-nZ-POZ" secondAttribute="trailing" constant="-20" id="9od-z9-0Wv"/>
                             <constraint firstItem="dhJ-oD-nWO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="EAi-t9-x7q"/>
+                            <constraint firstItem="Ou9-Z1-L5b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nuw-xh-cgR"/>
                             <constraint firstItem="s5r-nZ-POZ" firstAttribute="top" secondItem="dhJ-oD-nWO" secondAttribute="bottom" id="YQ9-bz-UCY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dhJ-oD-nWO" secondAttribute="trailing" constant="-20" id="hr7-SG-jc3"/>
                             <constraint firstItem="s5r-nZ-POZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="vKq-5R-Mv5"/>
+                            <constraint firstItem="Ou9-Z1-L5b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y7F-T1-2qy"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="Ou9-Z1-L5b" id="3OB-KN-3nJ"/>
                         <outlet property="locationSearchBar" destination="dhJ-oD-nWO" id="cGq-TC-Vfh"/>
                         <outlet property="tableView" destination="s5r-nZ-POZ" id="TDc-UG-nL5"/>
                     </connections>
