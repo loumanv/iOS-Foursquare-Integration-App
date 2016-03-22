@@ -9,7 +9,7 @@
 import UIKit
 import QuadratTouch
 
-class VenuesViewController: UIViewController, FoursquareDelegate, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
+class VenuesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var locationSearchBar: UISearchBar!
@@ -18,7 +18,6 @@ class VenuesViewController: UIViewController, FoursquareDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         locationSearchBar.delegate = self
-        foursquare.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,19 +46,18 @@ class VenuesViewController: UIViewController, FoursquareDelegate, UITableViewDat
     
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         if let location = searchBar.text {
-            foursquare.search(location)
+            foursquare.search(location) { () in
+                self.tableView.reloadData()
+            }
         }
     }
     
     func searchBarTextDidEndEditing(searchBar: UISearchBar) {
         if let location = searchBar.text {
-            foursquare.search(location)
+            foursquare.search(location) { () in
+                self.tableView.reloadData()
+            }
         }
-    }
-    
-    func searchFinished() {
-        tableView.reloadData()
-
     }
 }
 

@@ -15,6 +15,8 @@
 		C75CD3FA1CA0928B00C36788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3D81CA08C2F00C36788 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		C75CD3FD1CA0969F00C36788 /* Foursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3FC1CA0969F00C36788 /* Foursquare.swift */; settings = {ASSET_TAGS = (); }; };
 		C75CD3FF1CA097C300C36788 /* VenuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3FE1CA097C300C36788 /* VenuesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C75CD4011CA0B81000C36788 /* FoursquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD4001CA0B81000C36788 /* FoursquareTests.swift */; settings = {ASSET_TAGS = (); }; };
+		C75CD4021CA0B8F400C36788 /* Foursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75CD3FC1CA0969F00C36788 /* Foursquare.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 		C75CD3EF1CA08C2F00C36788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C75CD3FC1CA0969F00C36788 /* Foursquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foursquare.swift; sourceTree = "<group>"; };
 		C75CD3FE1CA097C300C36788 /* VenuesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesViewController.swift; sourceTree = "<group>"; };
+		C75CD4001CA0B81000C36788 /* FoursquareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				C75CD3EF1CA08C2F00C36788 /* Info.plist */,
+				C75CD4001CA0B81000C36788 /* FoursquareTests.swift */,
 			);
 			path = "iOS-Foursquare-Integration-AppTests";
 			sourceTree = "<group>";
@@ -283,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75CD4011CA0B81000C36788 /* FoursquareTests.swift in Sources */,
+				C75CD4021CA0B8F400C36788 /* Foursquare.swift in Sources */,
 				C75CD3FA1CA0928B00C36788 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
